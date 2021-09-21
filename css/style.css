@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,300;0,700;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Urbanist", sans-serif;
+}
+
+.content__title {
+  background-color: #00ffff;
+}
+
+h1 {
+  color: #002c66;
+  text-align: center;
+}
+
+header {
+  background-color: #002c66;
+  padding: .3rem 0;
+}
+
+header nav {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header nav ul li {
+  list-style-type: none;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #00ffff;
+}
+
+.productos {
+  background-color: #00ffff;
+  padding: 2rem .5rem;
+}
+
+.productos h2 {
+  color: #002c66;
+  text-align: center;
+  margin-bottom: .4rem;
+}
+
+.productos p {
+  color: black;
+  text-align: center;
+}
+
+.servicios {
+  padding: 1rem 2rem;
+}
+/*# sourceMappingURL=style.css.map */

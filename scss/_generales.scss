@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+  
+  html {
+    font-size: 62.5%;
+    font-family: $urbanist; 
+  }
+  
+  .content__title {
+    background-color: $celeste; 
+  }
+  
+  h1 {
+    color: $azul;
+    text-align: center; 
+  }
+  
+  header {
+    background-color: $azul;
+    padding: .3rem 0;
+      nav {
+          width: 80%;
+          margin: 0 auto;
+          ul {
+              display: flex;
+              justify-content: space-around; 
+              li {
+                  list-style-type: none;
+                  text-transform: uppercase;
+                  font-weight: 400; 
+                  a {
+                      text-decoration: none;
+                      color: $celeste; 
+                    }
+              }
+          } 
+             
+      } 
+  }
