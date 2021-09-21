@@ -49,6 +49,10 @@ header nav ul li a {
   color: #00ffff;
 }
 
+footer {
+  background-color: blueviolet;
+}
+
 .productos {
   background-color: #00ffff;
   padding: 2rem .5rem;
